@@ -4,7 +4,7 @@ import { useForm } from "../contexts/FormContext";
 import useWindowDimensions from "../hooks/useWindowDimensions";
 
 const StyledSidebar = styled.div`
-  background-image: url(${SidebarBg});
+  /* background-image: url({SidebarBg}); */
   border-radius: 10px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -98,7 +98,7 @@ function Sidebar() {
   }
 
   return (
-    <StyledSidebar>
+    <StyledSidebar style={{ backgroundImage: `url(${SidebarBg})` }}>
       <Steps>
         {steps.map((currentStep, index) => {
           return (
