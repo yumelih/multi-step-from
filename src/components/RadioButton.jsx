@@ -1,8 +1,6 @@
 import PropTypes from "prop-types";
 import styled from "styled-components";
-import arcadeIcon from "../assets/images/icon-arcade.svg";
-import advancedIcon from "../assets/images/icon-advanced.svg";
-import proIcon from "../assets/images/icon-pro.svg";
+
 import Container from "./Container";
 import Text from "./Text";
 import { prices } from "../data/data";
@@ -67,9 +65,9 @@ function RadioButton({ id, label, groupName, onChange, checked, value }) {
       <StyledLabelRadio htmlFor={id}>
         <LabelImg
           src={
-            (id === "arcade" && arcadeIcon) ||
-            (id === "advanced" && advancedIcon) ||
-            (id === "pro" && proIcon)
+            (id === "arcade" && "/public/images/icon-arcade.svg") ||
+            (id === "advanced" && "/public/images/icon-advanced.svg") ||
+            (id === "pro" && "/public/images/icon-pro.svg")
           }
         />
         <Container gap="0.3rem">

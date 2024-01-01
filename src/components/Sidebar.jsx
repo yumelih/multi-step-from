@@ -1,10 +1,9 @@
 import styled, { css } from "styled-components";
-import SidebarBg from "../assets/images/bg-sidebar-desktop.svg";
 import { useForm } from "../contexts/FormContext";
 import useWindowDimensions from "../hooks/useWindowDimensions";
 
 const StyledSidebar = styled.div`
-  background-image: url(${SidebarBg});
+  background-image: url("/public/images/bg-sidebar-desktop.svg");
   border-radius: 10px;
   background-size: cover;
   background-repeat: no-repeat;

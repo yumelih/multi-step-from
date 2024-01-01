@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-import ThankYouIcon from "../assets/images/icon-thank-you.svg";
 import Heading from "./Heading";
 
 import Text from "./Text";
@@ -23,7 +22,7 @@ const CenteredContainer = styled.div`
 function Ending() {
   return (
     <CenteredContainer>
-      <Img src={ThankYouIcon} />
+      <Img src="/public/images/icon-thank-you.svg" />
       <Heading>Thank You!</Heading>
       <Text>
         Thanks for confirming your subscription! We hope you have fun using our
