@@ -4,7 +4,7 @@ import { useForm } from "../contexts/FormContext";
 import useWindowDimensions from "../hooks/useWindowDimensions";
 
 const StyledSidebar = styled.div`
-  background: url(${SidebarBg});
+  background: url({SidebarBg});
   border-radius: 10px;
   background-size: cover;
   background-repeat: no-repeat;
