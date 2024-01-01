@@ -22,7 +22,7 @@ const CenteredContainer = styled.div`
 function Ending() {
   return (
     <CenteredContainer>
-      <Img src="/public/images/icon-thank-you.svg" />
+      <Img src="../../public/images/icon-thank-you.svg" />
       <Heading>Thank You!</Heading>
       <Text>
         Thanks for confirming your subscription! We hope you have fun using our

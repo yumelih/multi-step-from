@@ -3,7 +3,7 @@ import { useForm } from "../contexts/FormContext";
 import useWindowDimensions from "../hooks/useWindowDimensions";
 
 const StyledSidebar = styled.div`
-  background-image: url("/public/images/bg-sidebar-desktop.svg");
+  background-image: url("../../public/images/bg-sidebar-desktop.svg");
   border-radius: 10px;
   background-size: cover;
   background-repeat: no-repeat;

@@ -65,9 +65,9 @@ function RadioButton({ id, label, groupName, onChange, checked, value }) {
       <StyledLabelRadio htmlFor={id}>
         <LabelImg
           src={
-            (id === "arcade" && "/public/images/icon-arcade.svg") ||
-            (id === "advanced" && "/public/images/icon-advanced.svg") ||
-            (id === "pro" && "/public/images/icon-pro.svg")
+            (id === "arcade" && "../../public/images/icon-arcade.svg") ||
+            (id === "advanced" && "../../public/images/icon-advanced.svg") ||
+            (id === "pro" && "../../public/images/icon-pro.svg")
           }
         />
         <Container gap="0.3rem">
