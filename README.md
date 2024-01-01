@@ -40,8 +40,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Masters](https://your-solution-url.com)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Solution URL: [Frontend Masters](https://www.frontendmentor.io/solutions/multi-step-form-using-styled-components-and-react-n65G6DvB-E)
+- Live Site URL: [Live Site](https://multi-step-from-inky.vercel.app/)
 
 ## My process
 
